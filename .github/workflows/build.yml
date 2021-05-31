@@ -21,6 +21,7 @@ jobs:
 
       - name: Add
         run: |
+          rm -rf docs/
           mv public/ docs/
           git add docs/
           git config --global user.email "56037046+FionJones@users.noreply.github.com"
